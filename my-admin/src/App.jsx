@@ -23,7 +23,7 @@ import CampaignIcon from '@mui/icons-material/Campaign';
 import GppBadIcon from '@mui/icons-material/GppBad';
 
 // data provider linked to pocketbase and exported to use in other files
-export const pbProvider = PocketBaseProvider('https://miniature-space-happiness-r47gjxjgr44cr67-8090.app.github.dev/'); 
+export const pbProvider = PocketBaseProvider('https://refactored-space-sniffle-q7q9qvgwp7gw399jj-8090.preview.app.github.dev'); 
 
 export const App = () => (
   <Admin dataProvider={pbProvider.dataProvider} authProvider={pbProvider.authProvider} loginPage={LoginPage} 
